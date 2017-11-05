@@ -12,7 +12,7 @@ function showData(id)
     return;
   }
   xmlHttp = new XMLHttpRequest();
-  var url = "hw9.php";
+  var url = "show.php";
   url = url+"?i="+id+"&sid="+Math.random();
   xmlHttp.onreadystatechange = stateChanged;
   xmlHttp.open("GET",url,true);
